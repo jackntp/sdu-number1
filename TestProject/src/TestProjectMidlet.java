@@ -4,11 +4,19 @@
  */
 
 import javax.microedition.midlet.*;
+import javax.microedition.lcdui.*;
+
 
 /**
  * @author JACKNTP
  */
 public class TestProjectMidlet extends MIDlet {
+    
+     private Form form;
+     
+    public TestProjectMidlet(){
+        form = new Form("Hello World");
+    }
 
     public void startApp() {
     }
