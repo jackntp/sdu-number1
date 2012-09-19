@@ -12,10 +12,10 @@ import javax.microedition.lcdui.*;
  */
 public class TestProjectMidlet extends MIDlet {
     
-     private Form form;
+     private MyForm form;
      
     public TestProjectMidlet(){
-        form = new Form("Hello World");
+        form = new MyForm();
     }
 
     public void startApp() {
